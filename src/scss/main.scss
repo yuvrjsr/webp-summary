@@ -1,0 +1,23 @@
+@import 'variables';
+@import 'reset';
+
+body{
+    background-color: $bg;
+    color : $color;
+
+    nav{
+        line-height: 70px;
+
+        ul{
+            list-style: none;
+            @include flex;
+
+
+            .list_item{
+                font-family: sans-serif;
+                font-size: 2rem;
+                color: #fff;
+            }   
+        }
+    }
+}
